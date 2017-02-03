@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.caleb.fbla.fblamobileappdevelopment2017.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="Sell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSell"
+            android:layout_below="@+id/buttonBuy"
+            android:layout_centerHorizontal="true"
+            android:onClick="sellButton" />
+
+        <Button
+            android:text="Buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonBuy"
+            android:layout_marginTop="91dp"
+            android:onClick="buyButton"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/buttonSell"
+            android:layout_alignStart="@+id/buttonSell" />
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

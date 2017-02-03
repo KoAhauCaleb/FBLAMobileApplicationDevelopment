@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="C:\Users\User\AndroidStudioProjects\FBLAMobileAppDevelopment2017\FBLACodingAndProgramming" vcs="Git" />
+    <mapping directory="C:\Users\User\AndroidStudioProjects\FBLAMobileAppDevelopment2017\FBLAMobileApplicationDevelopment" vcs="Git" />
   </component>
 </project>
